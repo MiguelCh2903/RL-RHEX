@@ -5,7 +5,7 @@
 
 Real-world implementation of DroQ algorithm for hexapod locomotion on custom RHex robot with ESP32 microcontroller.
 
-![Demo ](./media/after_training.mp4)
+![R-HEX](media/img/img1.png)
 
 ## 📖 Project Overview
 - **RL Agent**: DroQ algorithm (Stable Baselines3)
@@ -14,8 +14,13 @@ Real-world implementation of DroQ algorithm for hexapod locomotion on custom RHe
 - **Action Space**: ΔVoltage for 6 motors
 - **Training**: 30min on GTX1650 using proprioceptive feedback
 
+![training](media/img/img2.png)
+
 ## 🚀 Features
 - Custom Gym environment with real-world physics constraints
 - Low-latency UDP communication (20Hz update rate)
 - Sensor-failure resilient architecture
 - Energy-efficient gait learning
+
+## Training
+![training video](media/videos/training_first_steps.mp4)
