@@ -7,6 +7,9 @@ Real-world implementation of DroQ algorithm for hexapod locomotion on custom RHe
 
 ![R-HEX](media/img/img1.png)
 
+# NEW VERSION - R-QUEX
+![R-QUEX](media/img/img3.jpeg)
+
 ## 📖 Project Overview
 ## NO ENCODERS !! :)
 - **RL Agent**: DroQ algorithm (Stable Baselines3)
