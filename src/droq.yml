@@ -1,0 +1,21 @@
+ForwardEnv:
+  n_timesteps: !!float 30000
+  learning_rate: !!float 3e-4
+  qf_learning_rate: !!float 1e-3
+  policy: 'MlpPolicy'
+  learning_starts: 1000
+  train_freq: 1
+  gradient_steps: 20
+  policy_delay: 20
+  policy_kwargs: "dict(dropout_rate=0.01, layer_norm=True)"
+
+StopEnv:
+  n_timesteps: !!float 30000
+  learning_rate: !!float 3e-4
+  qf_learning_rate: !!float 1e-3
+  policy: 'MlpPolicy'
+  learning_starts: 1000
+  train_freq: 1
+  gradient_steps: 20
+  policy_delay: 20
+  policy_kwargs: "dict(dropout_rate=0.01, layer_norm=True)"
