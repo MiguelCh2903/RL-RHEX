@@ -24,3 +24,6 @@ Real-world implementation of DroQ algorithm for hexapod locomotion on custom RHe
 
 ## Training
 ![training video](media/videos/training_first_steps.mp4)
+
+## Evaluation
+![evaluation video](media/videos/after_training.mp4)
