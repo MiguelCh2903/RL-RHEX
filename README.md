@@ -8,6 +8,7 @@ Real-world implementation of DroQ algorithm for hexapod locomotion on custom RHe
 ![R-HEX](media/img/img1.png)
 
 ## 📖 Project Overview
+## NO ENCODERS !! :)
 - **RL Agent**: DroQ algorithm (Stable Baselines3)
 - **Hardware**: 6-DoF RHex with ESP32, TB6612 drivers, IMU, and IR binary sensor
 - **State Space**: IMU data (orientation, angular velocity) + binary proximity
